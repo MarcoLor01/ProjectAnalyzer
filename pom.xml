@@ -6,6 +6,8 @@
     <groupId>com.example</groupId>
     <artifactId>ProjectAnalyzer</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging> <!-- Indica che questo pom non è un artefatto ma un aggregatore -->
+
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
@@ -16,15 +18,27 @@
     </properties>
 
     <dependencies>
+        <!-- Dipendenze comuni -->
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
-            <version>20231013</version>
+            <version>20231013</version> <!-- Assicurati di utilizzare l'ultima versione stabile -->
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-json</artifactId>
+            <version>4.9.0</version> <!-- Assicurati di utilizzare l'ultima versione stabile -->
+        </dependency>
+        <dependency>
+            <groupId>com.jayway.jsonpath</groupId>
+            <artifactId>json-path</artifactId>
+            <version>2.6.0</version> <!-- Assicurati di utilizzare l'ultima versione stabile -->
         </dependency>
     </dependencies>
 
     <build>
         <plugins>
+            <!-- Configurazione del plugin compilatore -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -36,4 +50,6 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
+
