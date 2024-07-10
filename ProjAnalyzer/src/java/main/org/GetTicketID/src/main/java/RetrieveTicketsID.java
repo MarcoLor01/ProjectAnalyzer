@@ -1,10 +1,12 @@
+package ProjAnalyzer.src.java.main.org.GetTicketID.src.main.java;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.*;
 import java.net.URL;
-import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 
 class RetrieveTicketsID {
 
@@ -18,26 +20,18 @@ class RetrieveTicketsID {
 	   }
 
    public static JSONArray readJsonArrayFromUrl(String url) throws IOException, JSONException {
-      InputStream is = new URL(url).openStream();
-      try {
-         BufferedReader rd = new BufferedReader(new InputStreamReader(is, Charset.forName("UTF-8")));
-         String jsonText = readAll(rd);
-         JSONArray json = new JSONArray(jsonText);
-         return json;
-       } finally {
-         is.close();
+       try (InputStream is = new URL(url).openStream()) {
+           BufferedReader rd = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8));
+           String jsonText = readAll(rd);
+           return new JSONArray(jsonText);
        }
    }
 
    public static JSONObject readJsonFromUrl(String url) throws IOException, JSONException {
-      InputStream is = new URL(url).openStream();
-      try {
-         BufferedReader rd = new BufferedReader(new InputStreamReader(is, Charset.forName("UTF-8")));
-         String jsonText = readAll(rd);
-         JSONObject json = new JSONObject(jsonText);
-         return json;
-       } finally {
-         is.close();
+       try (InputStream is = new URL(url).openStream()) {
+           BufferedReader rd = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8));
+           String jsonText = readAll(rd);
+           return new JSONObject(jsonText);
        }
    }
 
@@ -46,7 +40,7 @@ class RetrieveTicketsID {
   	   public static void main(String[] args) throws IOException, JSONException {
 		   
 		   String projName ="ACCUMULO";
-	   Integer j = 0, i = 0, total = 1;
+	   int j, i = 0, total;
       //Get JSON API for closed bugs w/ AV in the project
       do {
          //Only gets a max of 1000 at a time, so must do this multiple times if bugs >1000
@@ -54,7 +48,7 @@ class RetrieveTicketsID {
          String url = "https://issues.apache.org/jira/rest/api/2/search?jql=project=%22"
                 + projName + "%22AND%22issueType%22=%22Bug%22AND(%22status%22=%22closed%22OR"
                 + "%22status%22=%22resolved%22)AND%22resolution%22=%22fixed%22&fields=key,resolutiondate,versions,created&startAt="
-                + i.toString() + "&maxResults=" + j.toString();
+                + i + "&maxResults=" + j;
          JSONObject json = readJsonFromUrl(url);
          JSONArray issues = json.getJSONArray("issues");
          total = json.getInt("total");
@@ -64,7 +58,6 @@ class RetrieveTicketsID {
             System.out.println(key);
          }  
       } while (i < total);
-      return;
-   }
+       }
    
 }
