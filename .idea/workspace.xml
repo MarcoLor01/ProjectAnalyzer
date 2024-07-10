@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54b4004f-9cd3-4697-99ab-0936bba8492f" name="Changes" comment="Removing some code smells or deprecated function">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/ProjAnalyzer/src/java/main/org/MainClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/ProjAnalyzer/src/java/main/org/utilities/RetrieveTicketsID.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/ProjAnalyzer/src/java/main/org/utilities/getReleaseInfo.class" beforeDir="false" />
-    </list>
+    <list default="true" id="54b4004f-9cd3-4697-99ab-0936bba8492f" name="Changes" comment="Removing some code smells or deprecated function" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,11 +88,11 @@
   </component>
   <component name="RunManager" selected="Application.RetrieveTicketsID">
     <configuration name="RetrieveTicketsID" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProjAnalyzer.src.java.main.org.utilities.RetrieveTicketsID" />
+      <option name="MAIN_CLASS_NAME" value="utilities.RetrieveTicketsID" />
       <module name="ProjectAnalyzer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ProjAnalyzer.src.java.main.org.utilities.*" />
+          <option name="PATTERN" value="utilities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +101,11 @@
       </method>
     </configuration>
     <configuration name="getReleaseInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProjAnalyzer.src.java.main.org.utilities.getReleaseInfo" />
+      <option name="MAIN_CLASS_NAME" value="utilities.getReleaseInfo" />
       <module name="ProjectAnalyzer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ProjAnalyzer.src.java.main.org.utilities.*" />
+          <option name="PATTERN" value="utilities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,7 +140,7 @@
       <workItem from="1716325124258" duration="1128000" />
       <workItem from="1720534175116" duration="730000" />
       <workItem from="1720534956254" duration="56000" />
-      <workItem from="1720621952558" duration="3794000" />
+      <workItem from="1720621952558" duration="4211000" />
     </task>
     <servers />
   </component>

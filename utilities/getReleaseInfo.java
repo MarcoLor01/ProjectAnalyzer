@@ -1,4 +1,4 @@
-package ProjAnalyzer.src.java.main.org.utilities;
+package utilities;
 
 import org.json.JSONArray;
 import org.json.JSONException;
