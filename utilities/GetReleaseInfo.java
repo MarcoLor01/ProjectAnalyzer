@@ -14,7 +14,7 @@ import java.util.Comparator;
 import java.util.HashMap;
 
 
-public class getReleaseInfo {
+public class GetReleaseInfo {
 	
 	   public static HashMap<LocalDateTime, String> releaseNames;
 	   public static HashMap<LocalDateTime, String> releaseID;

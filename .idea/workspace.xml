@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54b4004f-9cd3-4697-99ab-0936bba8492f" name="Changes" comment="Removing some code smells or deprecated function" />
+    <list default="true" id="54b4004f-9cd3-4697-99ab-0936bba8492f" name="Changes" comment="Removing some code smells or deprecated function">
+      <change afterPath="$PROJECT_DIR$/ProjAnalyzer/MainClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjAnalyzer/utilities/RetrieveTicketsID.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjAnalyzer/utilities/getReleaseInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/GetReleaseInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/retrieveTicketsID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/RetrieveTicketsID.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/getReleaseInfo.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,28 +42,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.RetrieveTicketsID.executor": "Run",
-    "Application.getReleaseInfo.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.RetrieveTicketsID.executor&quot;: &quot;Run&quot;,
+    &quot;Application.getReleaseInfo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
     <layout>
       <window_info id="Bookmarks" show_stripe_button="false" side_tool="true" />
@@ -75,7 +85,7 @@
       <window_info anchor="bottom" id="Problems View" order="2" weight="0.3298611" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Build" order="4" weight="0.25902778" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.04236111" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.14097223" />
       <window_info anchor="bottom" id="Services" order="6" />
       <window_info anchor="right" id="Endpoints" show_stripe_button="false" />
       <window_info anchor="right" id="Coverage" show_stripe_button="false" side_tool="true" />
@@ -86,7 +96,27 @@
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
     </layout>
   </component>
-  <component name="RunManager" selected="Application.RetrieveTicketsID">
+  <component name="RunManager" selected="Application.MainClass">
+    <configuration name="GetReleaseInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utilities.GetReleaseInfo" />
+      <module name="ProjectAnalyzer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainClass" />
+      <module name="ProjectAnalyzer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RetrieveTicketsID" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="utilities.RetrieveTicketsID" />
       <module name="ProjectAnalyzer" />
@@ -100,23 +130,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="getReleaseInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utilities.getReleaseInfo" />
-      <module name="ProjectAnalyzer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="utilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClass" />
+        <item itemvalue="Application.GetReleaseInfo" />
         <item itemvalue="Application.RetrieveTicketsID" />
-        <item itemvalue="Application.getReleaseInfo" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +158,7 @@
       <workItem from="1716325124258" duration="1128000" />
       <workItem from="1720534175116" duration="730000" />
       <workItem from="1720534956254" duration="56000" />
-      <workItem from="1720621952558" duration="4211000" />
+      <workItem from="1720621952558" duration="5248000" />
     </task>
     <servers />
   </component>

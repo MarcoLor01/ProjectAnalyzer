@@ -8,7 +8,7 @@ import java.io.*;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 
-class RetrieveTicketsID {
+public class RetrieveTicketsID {
 
    private static String readAll(Reader rd) throws IOException {
 	      StringBuilder sb = new StringBuilder();
