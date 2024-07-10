@@ -12,7 +12,14 @@
         <maven.compiler.target>21</maven.compiler.target>
     </properties>
 
-    <dependencies>
+    <properties>
+        <sonar.projectKey>MarcoLor01_ProjectAnalyzer</sonar.projectKey>
+        <sonar.organization>marcolor01</sonar.organization>
+        <sonar.host.url=https://sonarcloud.io</sonar.host.url>
+    </properties>
+
+
+<dependencies>
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>

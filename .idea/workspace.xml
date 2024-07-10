@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54b4004f-9cd3-4697-99ab-0936bba8492f" name="Changes" comment="Removing some code smells or deprecated function">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOOKKEEPERVersionInfo.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetTicketID/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetTicketID/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetTicketID/src/main/java/RetrieveTicketsID.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetTicketID/src/main/java/RetrieveTicketsID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/src/main/java/getReleaseInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/src/main/java/getReleaseInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/MainClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +142,7 @@
       <workItem from="1716325124258" duration="1128000" />
       <workItem from="1720534175116" duration="730000" />
       <workItem from="1720534956254" duration="56000" />
-      <workItem from="1720621952558" duration="862000" />
+      <workItem from="1720621952558" duration="1391000" />
     </task>
     <servers />
   </component>
