@@ -5,153 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54b4004f-9cd3-4697-99ab-0936bba8492f" name="Changes" comment="Removing some code smells or deprecated function">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOOKKEEPERVersionInfo.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/.gitignore:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/compiler.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/jarRepositories.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/misc.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/runConfigurations.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/workspace.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetTicketID/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetTicketID/pom.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetTicketID/src/main/java/RetrieveTicketsID.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/utilities/RetrieveTicketsID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetTicketID/src/main/java/RetrieveTicketsID.java:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/.gitignore:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/compiler.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/jarRepositories.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/misc.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/runConfigurations.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/workspace.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/QPIDVersionInfo.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/QPIDVersionInfo.csv:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/pom.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/src/main/java/getReleaseInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/utilities/getReleaseInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/src/main/java/getReleaseInfo.java:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.github/workflows/build.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/ProjectAnalyzer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BOOKKEEPERVersionInfo.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/.idea/ProjectAnalyzer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/.gitignore:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/compiler.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/jarRepositories.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/misc.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/runConfigurations.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/workspace.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/pom.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/src/main/java/RetrieveTicketsID.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/src/main/java/RetrieveTicketsID.java:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/.gitignore:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/compiler.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/jarRepositories.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/misc.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/runConfigurations.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/workspace.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/QPIDVersionInfo.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/QPIDVersionInfo.csv:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/pom.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/src/main/java/getReleaseInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/src/main/java/getReleaseInfo.java:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjAnalyzer/src/java/main/org/MainClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.idea/ProjectAnalyzer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/BOOKKEEPERVersionInfo.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/.idea/ProjectAnalyzer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/.gitignore:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/compiler.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/jarRepositories.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/misc.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/runConfigurations.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/.idea/workspace.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/pom.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/src/main/java/RetrieveTicketsID.java:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/.gitignore:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/compiler.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/jarRepositories.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/misc.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/runConfigurations.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/.idea/workspace.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/QPIDVersionInfo.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/QPIDVersionInfo.csv:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/pom.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/src/main/java/getReleaseInfo.java:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/pom.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/src/main/java/RetrieveTicketsID.java:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/QPIDVersionInfo.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/QPIDVersionInfo.csv:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/pom.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/src/main/java/getReleaseInfo.java:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/pom.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetTicketID/src/main/java/RetrieveTicketsID.java:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/QPIDVersionInfo.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/QPIDVersionInfo.csv:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/pom.xml:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/ProjAnalyzer/src/java/main/org/GetVersionsFromJIRA/untitled/src/main/java/getReleaseInfo.java:Zone.Identifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/ProjAnalyzer/src/java/main/org/MainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/ProjAnalyzer/src/java/main/org/utilities/RetrieveTicketsID.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjAnalyzer/ProjAnalyzer/src/java/main/org/utilities/getReleaseInfo.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,8 +79,8 @@
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" weight="0.3298611" />
       <window_info anchor="bottom" id="Terminal" order="3" />
-      <window_info active="true" anchor="bottom" id="Build" order="4" visible="true" weight="0.25902778" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.047916666" />
+      <window_info anchor="bottom" id="Build" order="4" weight="0.25902778" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.04236111" />
       <window_info anchor="bottom" id="Services" order="6" />
       <window_info anchor="right" id="Endpoints" show_stripe_button="false" />
       <window_info anchor="right" id="Coverage" show_stripe_button="false" side_tool="true" />
@@ -288,7 +145,7 @@
       <workItem from="1716325124258" duration="1128000" />
       <workItem from="1720534175116" duration="730000" />
       <workItem from="1720534956254" duration="56000" />
-      <workItem from="1720621952558" duration="3232000" />
+      <workItem from="1720621952558" duration="3794000" />
     </task>
     <servers />
   </component>
